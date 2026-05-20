@@ -1,0 +1,93 @@
+ [
+  {
+    "Id": 1,
+    "FullName": "Harley Jacksmith",
+    "PhoneNumber": "9876543211",
+    "Email": "harley.jack@gmail.com",
+    "vehicles": [
+      {
+        "Id": 1,
+        "VehicleNumber": "NY 2020 Q",
+        "VehicleModel": "Tesla Y",
+        "VehicleBrand": "Tesla",
+        "CustomerId": 1
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "FullName": "John Doe",
+    "PhoneNumber": "1234567890",
+    "Email": "john.doe@gmail.com",
+    "vehicles": [
+      {
+        "Id": 2,
+        "VehicleNumber": "CA-1234 AB-5678",
+        "VehicleModel": "Camry",
+        "VehicleBrand": "Toyota",
+        "CustomerId": 2
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "FullName": "Jane Smith",
+    "PhoneNumber": "9876543210",
+    "Email": "jane.smith@gmail.com",
+    "vehicles": [
+      {
+        "Id": 3,
+        "VehicleNumber": "KA-01-AB-1234",
+        "VehicleModel": "Corolla",
+        "VehicleBrand": "Toyota",
+        "CustomerId": 3
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "FullName": "Rajesh Kumar",
+    "PhoneNumber": "555-0001",
+    "Email": "rajesh.kumar@gmail.com",
+    "vehicles": [
+      {
+        "Id": 4,
+        "VehicleNumber": "MH-02-CD-5678",
+        "VehicleModel": "City",
+        "VehicleBrand": "Honda",
+        "CustomerId": 4
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "FullName": "Priya Sharma",
+    "PhoneNumber": "9988776655",
+    "Email": "priya.sharma@gmail.com",
+    "vehicles": [
+      {
+        "Id": 5,
+        "VehicleNumber": "DL-03-EF-9012",
+        "VehicleModel": "Swift",
+        "VehicleBrand": "Maruti",
+        "CustomerId": 5
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "FullName": "Amit Patel",
+    "PhoneNumber": "8877665544",
+    "Email": "amit.patel@gmail.com",
+    "vehicles": [
+      {
+        "Id": 6,
+        "VehicleNumber": "GJ-04-GH-3456",
+        "VehicleModel": "Fortuner",
+        "VehicleBrand": "Toyota",
+        "CustomerId": 6
+      }
+    ]
+  }
+]
+

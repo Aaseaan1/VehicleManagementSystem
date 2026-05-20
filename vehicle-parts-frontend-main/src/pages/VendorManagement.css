@@ -1,0 +1,385 @@
+.vendor-page {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.vendor-hero {
+    background: linear-gradient(135deg, #0f766e, #14b8a6);
+    border-radius: 30px;
+    padding: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.vendor-hero h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+
+.vendor-hero p {
+    margin-top: 10px;
+    color: #ecfeff;
+    font-size: 18px;
+}
+
+.vendor-count {
+    background: white;
+    color: #0f766e;
+    padding: 18px 26px;
+    border-radius: 18px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.vendor-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.vendor-stat-card {
+    background: white;
+    border-radius: 24px;
+    padding: 26px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.06);
+}
+
+.vendor-stat-card span {
+    display: block;
+    color: #6b7280;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.vendor-stat-card strong {
+    font-size: 30px;
+    color: #111827;
+}
+
+.vendor-management-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 24px;
+}
+
+.vendor-form-card,
+.vendor-info-card,
+.vendor-table-card {
+    background: white;
+    border-radius: 30px;
+    padding: 32px;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.06);
+}
+
+.vendor-form-card h2,
+.vendor-info-card h2,
+.vendor-table-card h2 {
+    margin: 0 0 24px;
+    color: #111827;
+    font-size: 28px;
+}
+
+.vendor-management-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vendor-management-form input {
+    width: 100%;
+    height: 54px;
+    padding: 0 18px;
+    border-radius: 16px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.vendor-management-form input:focus {
+    border-color: #0f766e;
+    box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.12);
+}
+
+.vendor-management-form button {
+    width: 100%;
+    height: 56px;
+    border: none;
+    background: #0f766e;
+    color: white;
+    border-radius: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.vendor-management-form button:hover {
+    background: #115e59;
+}
+
+.vendor-management-form .cancel-btn {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.vendor-side-banner {
+    height: 100%;
+    border-radius: 26px;
+    padding: 38px 30px;
+    background: linear-gradient(135deg, #0f766e, #14b8a6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+}
+
+.vendor-side-banner h2 {
+    margin: 0;
+    font-size: 34px;
+    color: white;
+}
+
+.vendor-side-banner p {
+    margin-top: 18px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #ecfeff;
+}
+
+.vendor-mini-stats {
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.vendor-mini-stats div {
+    flex: 1;
+    background: rgba(255,255,255,0.16);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.vendor-mini-stats strong {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.vendor-mini-stats span {
+    color: #d1fae5;
+}
+
+.vendor-table-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.vendor-table-top h2 {
+    margin-bottom: 6px;
+}
+
+.vendor-table-top p {
+    margin: 0;
+    color: #6b7280;
+    font-weight: 600;
+}
+
+.vendor-table-top button {
+    border: none;
+    background: #0f766e;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.vendor-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.vendor-management-table thead {
+    background: #f3f4f6;
+}
+
+.vendor-management-table th {
+    padding: 18px;
+    text-align: left;
+    color: #374151;
+    font-size: 15px;
+}
+
+.vendor-management-table td {
+    padding: 18px;
+    border-top: 1px solid #e5e7eb;
+    color: #374151;
+}
+
+.vendor-management-table tr:hover {
+    background: #f9fafb;
+}
+
+.vendor-action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.vendor-action-buttons .edit-btn,
+.vendor-action-buttons .delete-btn {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+}
+
+.vendor-action-buttons .edit-btn {
+    background: #0f766e;
+}
+
+.vendor-action-buttons .delete-btn {
+    background: #ef4444;
+}
+
+.vendor-empty {
+    text-align: center;
+    color: #6b7280;
+    padding: 28px !important;
+    font-weight: 700;
+}
+
+.vendor-pagination {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.vendor-pagination button {
+    border: none;
+    background: #0f766e;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.vendor-pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.vendor-pagination span {
+    font-weight: 800;
+    color: #374151;
+}
+
+@media (max-width: 900px) {
+    .vendor-hero,
+    .vendor-table-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+
+    .vendor-stats-grid,
+    .vendor-management-layout {
+        grid-template-columns: 1fr;
+    }
+}
+.vendor-stat-card p {
+    margin-top: 10px;
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 600;
+}
+.vendor-tabs {
+    display: flex;
+    gap: 14px;
+    margin: 26px 0;
+}
+
+.active-tab,
+.inactive-tab {
+    border: none;
+    padding: 14px 28px;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.active-tab {
+    background: #0f766e;
+    color: white;
+}
+
+.inactive-tab {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.vendor-main-card {
+    background: white;
+    border-radius: 30px;
+    padding: 34px;
+}
+
+.vendor-form-section {
+    margin-bottom: 40px;
+}
+
+.vendor-table-section {
+    margin-top: 10px;
+}
+
+.vendor-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.vendor-table-header h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.vendor-table-header button {
+    background: #0f766e;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.vendor-hero h1 {
+    font-size: 34px !important;
+    font-weight: 800 !important;
+    color: white !important;
+    margin: 0 !important;
+    letter-spacing: 0 !important;
+}
+
+.vendor-hero p {
+    font-size: 18px !important;
+    color: #ecfeff !important;
+    margin-top: 8px !important;
+}
